@@ -1,0 +1,20 @@
+nav ul{
+    float: left;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    border: 3px solid transparent;
+    padding: 7px 10px;
+    border-radius: 12px;
+}
+nav a.active,nav a:hover{
+    border: 3px solid white;
+    transition: .5s;
+}

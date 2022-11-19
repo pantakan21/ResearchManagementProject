@@ -1,0 +1,52 @@
+*{
+    font-family: 'Itim', 'cursive';
+}
+
+body {background-color: #C9E2EF;}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url('image/Header1.png');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url('image/pic2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('image/pic3.jpg');
+    background-size: cover;
+}
+
+.inf-content{
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}			 
+
+.bin-color{
+    color: red;
+}
+
+#bg1{
+    background-color: 	#282A35;
+}
+
+#bg2{
+    background-color: 	#D9EEE1;
+}
+
+#bg3{
+    background-color: 	#FFF4A3;
+}
+
+#bg4{
+    background-color: 	#F3ECEA;
+}

@@ -1,0 +1,85 @@
+*{
+    font-family: 'Itim', 'cursive';
+}
+
+header {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    animation: lights 5s 1ms linear infinite;
+}
+  
+.intro{
+    display:flex;
+    flex-direction:row;
+    color: #f5f5f5;
+    }
+
+    .indeks{
+    border-bottom: 8px solid #f5f5f5;
+    padding: 0.1em 0;
+    width: 0.5em;
+    animation: indeks 0.95s infinite;
+    }
+    
+    @keyframes indeks{
+      0%{
+      opacity:0;
+      }
+      100%{
+      opacity:1;
+      }
+    }
+
+    @keyframes lights {
+        0% {
+          color: hsl(230, 40%, 80%);
+          text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+        }
+        
+        30% { 
+          color: hsl(230, 80%, 90%);
+          text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+        }
+        
+        40% { 
+          color: hsl(230, 100%, 95%);
+          text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 90%, 0.5),
+            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+        }
+        
+        70% {
+          color: hsl(230, 80%, 90%);
+          text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+        }
+        
+        100% {
+          color: hsl(230, 40%, 80%);
+          text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+        }
+        
+      }
